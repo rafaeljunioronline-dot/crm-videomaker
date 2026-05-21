@@ -227,7 +227,7 @@ export default function Dashboard() {
         <section className="space-y-4">
           <h2 className="text-sm font-bold uppercase tracking-wider text-slate-400 flex items-center gap-2">
             <CalendarDays size={16} className="text-indigo-400" /> 
-            {dataInicio && dataFim ? 'Jobs no Período Selecionado' : 'Todos os Jobs Cadastrados'}
+            {dataInicio && dataFim ? 'Serviços no Período Selecionado' : 'Todos os Serviços Cadastrados'}
           </h2>
 
           {carregando ? (
